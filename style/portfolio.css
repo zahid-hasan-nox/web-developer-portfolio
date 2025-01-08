@@ -26,6 +26,7 @@ body{
     border-style: none;
     border-radius: 5px;
     font-size: 18px;
+    cursor: pointer;
 .section-title{
     font-size: 45px;
     font-weight: bold;
@@ -120,3 +121,35 @@ nav ul{
 }
 .skill{margin-top: 130px;
 . } 
+/* RESUME SACTION STYLES */
+.resume-column{
+    display: flex;
+    gap: 24px;
+}
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+.experience-sub-title{font-size: 20px;}
+.experience-description{font-size: 16px;}
+.btn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* FOOTER */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"],footer input[type="email"]{
+    height: 64px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+    padding: 10px 20px;
+    border: none;
+}
