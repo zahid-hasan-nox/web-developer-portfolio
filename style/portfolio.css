@@ -36,7 +36,9 @@ body{
     color: #757575;
 }
 }
-
+.text-center{
+    text-align: center;
+}
 /* Nav Style */
 nav{
     display: flex;
@@ -91,6 +93,7 @@ nav ul{
 .main{
     max-width: 1140px;
     margin: 0 auto;
+    /* margin-top: 130px; */
 }
 /* ABOUT STYLES */
 .about{
@@ -106,3 +109,14 @@ nav ul{
 .item-description{
     font-weight: bold;
 }
+/* SKILL STYLES */
+.skill-container{
+    display: flex;
+    gap: 24px;
+}
+.skill2{
+    padding: 10px;
+    box-shadow:0px 6px 20px 0px blueviolet;
+}
+.skill{margin-top: 130px;
+. } 
